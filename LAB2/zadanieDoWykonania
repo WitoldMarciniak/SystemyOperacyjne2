@@ -1,0 +1,3 @@
+dany jest katalog D i plik regularny p nalezy z D usunąć wszystkie linki symboliczne (zdefiniowane sciezka wzgledna) na pliki regularne wraz z całym celem ##1
+## w D nalezy znalezc wszystkie linki twarde do P
+## Utworzyc w D link symboliczny do P

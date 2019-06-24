@@ -1,0 +1,5 @@
+Dane jest drzewo katalogowe D i plik zwykly P
+
+1. Należy w D dla katalogow uzyskac liczbe plikow ukrytych, a dla plikow zwyklych sciezke kanoniczna - sciezke zamiast slasha, backslasha. Wyniki nalezy zapisac do dowolnego pliku. Na koncu wyswietlic z pliku dziesiec ostatnich posortowanych(sortujemy 10 ostatnich, nie calosc) wynikow. (Odpowiednik potokow).
+
+2. Wyswietlic wszystkie linki internetowe znalezione w P. Adresy moga pojawiac sie kilka razy w linii

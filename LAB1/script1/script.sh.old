@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+var=".old"
+
+	for i in $(ls $1);
+
+	do x="$i"
+
+	if [ -w $x ]
+
+	then
+
+	mv $x $x$var
+
+	fi
+
+	done
+	
+	echo ProgramSkonczony
+

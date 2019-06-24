@@ -1,0 +1,7 @@
+Dane jest drzewo katalogowe D i plik zwykły P
+
+1. W D dla plików zwykłych uzyskać rozmiar w Bajtach podzielony przez 100, a dla linków symbolicznych ich cel, wyniki posortować zapisać do dowolnego pliku i wyświetlić pierwsze 10    5pkt
+
+
+2. Należy wyświetlić P ze zmienionymi datami. Jeśli daty były w formacie YYYY-MM-DD -> DD/MM/YY
+Walidacja danych (31 dni w miesiącu). Z pliku tekstowego 5pkt

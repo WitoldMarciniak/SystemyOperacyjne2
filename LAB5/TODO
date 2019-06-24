@@ -1,0 +1,16 @@
+DANY JEST PLIK ZWYKLY ARGUMENT SKRYPTU (cos z cpp) nalezy:
+
+a) wypisac zawartosc tego pliku bez linii pustych i skladajacych sie z bialych znakow
+b) dla kazdej instrukcji przypisania var = costam; wypisac costam
+c) wypisać srednia z liczb znalezionych w pliku
+
+
+
+'BEGIN {line_num=1; files_found=0}\
+	{sub(  /\\\\.*/, "", $0 )}
+	/#include[ ]*((<.*>)|(\".*\"))/ {includes[files_found]=$0;\
+		includes[files_found]=gensub( /.*([<"])(.*)([>"]).*/, "\\2", 1, includes[files_found] );\
+		files_found+=1};\
+	NF != 0 {print line_num ". " $0; line_num+=1};\
+	END {for ( key in includes ) print includes[key]}'\
+
